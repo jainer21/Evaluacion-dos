@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content"width=device-width, user-scalable=no">
-    <title>Comenzando con la fotografia</title>
+    <title>Evaluacion 2</title>
     <link rel="stylesheet" href="css/Estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <style media="screen">
+
+    </style>
 </head>
-  <body>
-    <div id="Contenido">
-      <header>
-        <div id="nombre_pagina">
-        <h1>Comenzando con la fotografía</h1>
+
+<body>
+    <div id="contenedor_padre">
+        <header class="encabezado">
+            <h1>Comenzando con la fotografia</h1>
+            <nav class="menu">
+                <h1>
+                <a class="sin" href="">Inicio</a>
+                <a href="Paisajes/Paisajes.html">Paisajes</a>
+                <a href="Retratos/Retratos.html">Retratos</a>
+              </h1>
+            </nav>
+        </header>
+        <div class="imagen_central">
+            <img class="formato_fotos1" src="Imagenes/nevado.jpg">
         </div>
-        <nav>
-        <h1>
-          <a href="#">Inicio</a>
-          <a href="#">Paisajes</a>
-          <a href="#">Retratos</a>
-        </h1>
-
-      </nav>
-      </header>
-      <div id="Imagen_central">
-
-      </div>
-      <div id="Imagenes">
-
-      </div>
-      <footer>
-
-      </footer>
+        <div class="imagenes_secundarias">
+            <div class="flex-items">
+                <img class="formato_fotos2" src="imagenes/rio_rojo.jpg" height="250px">
+                <h1 class="sin-margen">
+                <a href="Paisajes/Paisajes.html">Paisajes</a>
+                </h1>
+            </div>
+            <div class="flex-items">
+                <img class="formato_fotos3" src="imagenes/retrato.jpg" height="250px">
+                <h1 class="sin-margen">
+                <a href="Retratos/Retratos.html">Retratos</a>
+              </h1>
+            </div>
+        </div>
+        <footer class="pie_de_pagina">Comenzando con la fotografia</footer>
     </div>
-    </body>
+</body>
+
 </html>

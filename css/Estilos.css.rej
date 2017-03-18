@@ -1,0 +1,61 @@
+diff a/css/Estilos.css b/css/Estilos.css	(rejected hunks)
+@@ -19,21 +19,54 @@
+ header
+ {
+ background-color: #5b7989;
+-height: 150px;
+-width: 900px;
+-font-family: 'Dancing Script', cursive;
++height: 110px;
++color: white;
++border-radius: 10px 10px 0px 0px;
++text-shadow: 2px 2px #02010a;
++margin-top: 5px;
++}
++#nombre_pagina
++{
++position: relative;
++top: 30px;
++left: 30px;
++width: 400px !important
++
++}
++
++/* menu de navegacion*/
++nav
++{
++float: right;
++margin-right: 30px;
++color: white;
++word-spacing: 10px;
+ }
++a[href]
++{
++color: white;
++}
++
++
+ /*Imagen central*/
+ #Imagen_central
+ {
+   background-color: #82c3a6;
+   width: 900px;
+   height: 400px;
+-}
++  }
+ /*Imagenes izquierda y derecha*/
+ #Imagenes
+ {
+-background-color: #C6d5c5;
++background-color: #d5c75f;
+ width: 900px;
+ height: 300px;
++border: 1px;
++}
++footer
++{
++background-color:  #C6d5c5;
++width: 900px;
++height: 100px;
++border-radius: 0px 0px 10px 10px;
+ }
