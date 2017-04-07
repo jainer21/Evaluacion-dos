@@ -6,7 +6,7 @@ font-family: 'Dancing Script', cursive;
 
 #contenedor_padre
 {
-width: 900px !important;
+width: 900px;
 display: flex;
 flex-direction: column;
 background-color: black;
@@ -79,4 +79,45 @@ filter: grayscale(100%);
 }
 .imagen3{
 filter: sepia(90%);
+}
+@media (max-width:900px){
+
+  #contenedor_padre
+{
+width: 100%;
+}
+.encabezado{
+height: 100%;
+border: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+.titulo{
+text-align: center;
+}
+.mosaico{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100%;
+padding: 20px;
+}
+.pie_de_pagina{
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+height: 100%;
+border: 0;
+padding: 0;
+}
+.formato-pie{
+height: 100%;
+padding: 15px;
+}
 }

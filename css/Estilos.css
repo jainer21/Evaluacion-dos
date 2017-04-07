@@ -102,3 +102,68 @@ padding: 0;
 padding-left: 20px;
 padding-bottom: 1px;
 }
+@media (max-width:900px){
+
+  #contenedor_padre
+  {
+  width: 100%;
+  }
+.encabezado{
+height: 100%;
+border: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+align-content: center;
+}
+.titulo{
+text-align: center;
+}
+.imagen_central{
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 100%;
+padding: 20px;
+}
+.formato_fotos1{
+width: 80%;
+height: 50%;
+}
+.flex-items{
+height: 80%;
+margin: 15px;
+}
+.formato_fotos2{
+width: 80%;
+height: 80%;
+}
+.formato_fotos3{
+width: 80%;
+height: 80%;
+}
+.imagenes_secundarias{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+height: 100%;
+}
+.pie_de_pagina{
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+height: 100%;
+border: 0;
+padding: 0;
+}
+.formato-pie{
+height: 100%;
+padding: 15px;
+}
+}
